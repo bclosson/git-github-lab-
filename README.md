@@ -44,7 +44,7 @@ The commit message should read: <br>
 1. What command do you use to pull any changes from the master repository into your local repository?<br>
 1. What command do you use to unstage a file?<br>
 1. What command do you use to change your files back to how they were after a commit?<br>
-1. Why is it important to use `--` when changing files back to a previous state?<br>
+1. Why is it important to use `--hard` when changing files back to a previous state?<br>
 1. Why might you want to reset your files back to a previous commit?<br>
 
 <hr>
