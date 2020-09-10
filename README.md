@@ -31,9 +31,9 @@ Prerequisites: Github, git, HTML, CSS
 
 ### Answer the following questions
 
-1. What command do you use to setup a git repository inside of your folder?<br>
-1. What command do you use to ask git to start tracking a file?<br>
-1. What command do you use to ask git to move your file from the staging area to the repository?<br>
+1. What command do you use to setup a git repository inside of your folder?<br>git init
+1. What command do you use to ask git to start tracking a file?<br>git add -A
+1. What command do you use to ask git to move your file from the staging area to the repository?<br>git commit -m
 
 <hr>
 &#x1F534; **Commit your work.** <br>
@@ -41,11 +41,11 @@ The commit message should read: <br>
 "Commit 1 - The 1st set of GIT homework answers are complete".
 <hr>
 
-1. What command do you use to pull any changes from the master repository into your local repository?<br>
-1. What command do you use to unstage a file?<br>
-1. What command do you use to change your files back to how they were after a commit?<br>
-1. Why is it important to use `--hard` when changing files back to a previous state?<br>
-1. Why might you want to reset your files back to a previous commit?<br>
+1. What command do you use to pull any changes from the master repository into your local repository?<br>git pull
+1. What command do you use to unstage a file?<br>git reset head
+1. What command do you use to change your files back to how they were after a commit?<br>git reset --hard
+1. Why is it important to use `--hard` when changing files back to a previous state?<br>The hard flag deletes the unwanted files so you can replace with the correct files
+1. Why might you want to reset your files back to a previous commit?<br>If changes were made that didn't work out, you can go back to the last commit that was working and go from there.If a program is working well then breaks at a specific point in the development process you can return to the last point the program was functioning properly and move forward again fixing the issues that made it break.
 
 <hr>
 &#x1F534; ** Commit your work.** <br>
